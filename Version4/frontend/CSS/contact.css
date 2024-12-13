@@ -1,0 +1,43 @@
+.contact-section {
+    margin-top: 50px;
+  }
+  
+  .contact-card {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .contact-card .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .btn-small {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

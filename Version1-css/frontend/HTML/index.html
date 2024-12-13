@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Management</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+  <link rel="stylesheet" href="../CSS/header.css">
+  <!-- ฟอนต์ไอคอน -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- หน้า Welcome -->
+  <div id="welcome-screen" class="welcome-screen">
+    <h1>Welcome to Product Management</h1>
+    <p>Manage your products effortlessly. Click below to start.</p>
+    <button onclick="startApp()" class="btn-start">Start</button>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#" class="navbar-brand">Product Management</a>
+    </div>
+    <div class="navbar-right">
+      <a href="#" onclick="Gohome()" class="navbar-item"><i class="fa fa-home"></i> Home</a>
+      <a href="#" class="navbar-item"><i class="fa fa-info-circle"></i> About</a>
+      <a href="#" class="navbar-item"><i class="fa fa-cog"></i> Settings</a>
+      <a href="#" class="navbar-item login-btn"><i class="fa fa-user"></i> Login</a>
+    </div>
+  </nav>
+
+  <div class="container" id="product-management" style="display: none;">
+    <h1>Product Management</h1>
+    <form id="product-form">
+      <input type="text" id="product-name" placeholder="Product Name" required />
+      <input type="text" id="product-price" placeholder="Product Price" required />
+      <button type="submit">Add Product</button>
+    </form>
+    <ul id="product-list"></ul>
+  </div>
+
+  <script src="../JS/script.js"></script>
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+setup 
+
+    npm i express morgan mongoose cors body-parser
+
+
+run
+
+cd backend
+
+node server.js
